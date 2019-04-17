@@ -42,8 +42,10 @@ A list of example command lines you can use with the pre-trained models provided
     # Run the super-resolution script to repair JPEG artefacts, zoom factor 1:1.
     python3 enhance.py --type=photo --model=repair --zoom=1 broken.jpg
 
+
     # Process multiple good quality images with a single run, zoom factor 2:1.
     python3 enhance.py --type=photo --zoom=2 file1.jpg file2.jpg
+    python enhance.py --type=photo --zoom=2 E:\workspace\pyProjects\caizhi\neural-enhance\1_0.png E:\workspace\pyProjects\caizhi\neural-enhance\1_1.png
 
     # Display output images that were given `_ne?x.png` suffix.
     open *_ne?x.png
